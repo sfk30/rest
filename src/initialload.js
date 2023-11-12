@@ -13,7 +13,7 @@ const initialLoad = function() {
     pageContent.appendChild(burger)
 
     const phrase = document.createElement('p')
-    phrase.textContent = 'We made the best burgers'
+    phrase.textContent = 'We make the best burgers'
     pageContent.appendChild(phrase)
 
     content.appendChild(pageContent)
