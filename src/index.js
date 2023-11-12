@@ -1,1 +1,3 @@
-console.log('hello from the console')
+import initialLoad from "./initialload.js";
+
+initialLoad()
