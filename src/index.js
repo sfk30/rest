@@ -1,4 +1,6 @@
 import './styles.css'
-import initialLoad from "./initialload.js";
+import createTabs from './tabs.js'
+import createHomePage from './homepage.js';
 
-initialLoad()
+createTabs()
+createHomePage()

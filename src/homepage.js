@@ -1,6 +1,6 @@
 import burgerPic from './images/burger.jpg';
 
-const initialLoad = function() {
+const createHomePage = function() {
     const content = document.getElementById('content')
 
     const pageContent = document.createElement('div')
@@ -9,10 +9,6 @@ const initialLoad = function() {
     const heading = document.createElement('h1')
     heading.textContent = 'Burgers and fries'
     pageContent.appendChild(heading)
-
-    // const burger = document.createElement('img')
-    // burger.src = "https://images.pexels.com/photos/2119758/pexels-photo-2119758.jpeg?auto=compress&cs=tinysrgb&w=800"
-    // pageContent.appendChild(burger)
 
     const burger = new Image()
     burger.src = burgerPic
@@ -28,4 +24,4 @@ const initialLoad = function() {
 
 }
 
-export default initialLoad
+export default createHomePage
