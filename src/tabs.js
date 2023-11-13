@@ -1,5 +1,6 @@
 import createMenu from "./menu"
 import createHomePage from "./homepage"
+import createContactForm from "./contact"
 
 const createTabs = function () {
 
@@ -27,6 +28,7 @@ const createTabs = function () {
     content.appendChild(btnContainer)
 
     menuBtn.addEventListener('click', () => {
+        console.log('pressed')
         clear()
         createMenu()
     })
@@ -36,6 +38,11 @@ const createTabs = function () {
         createHomePage()
     })
 
+    contactBtn.addEventListener('click', () => {
+        console.log('pressed')
+        clear()
+        createContactForm()
+    })
 }
 
 function clear() {

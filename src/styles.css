@@ -15,12 +15,13 @@ p {
 }
 
 .btn-container { 
+    margin-top: 20px;
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
 }
 
-.tab { 
+.tab, .submit-btn { 
     background-color: orangered;
     border-radius: 4px;
     color: white;
@@ -42,4 +43,16 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contact-form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.submit-btn {
+    width: 150px;
 }
